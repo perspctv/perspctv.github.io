@@ -1,0 +1,71 @@
+body {
+    background-image: linear-gradient(#FFFFFF, #20B2AA);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+            
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #20B2AA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+            
+.subheader {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 50px;
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url('media/echo-grid-156713.jpg');
+    background-color: #20B2AA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.5);
+}
+            
+.headers {
+    width: 70%;
+    position: relative;
+    left: 20px;
+    text-align: left;
+    float: left;
+}
+            
+.contact-us {
+    width: 25%;
+    text-align: right;
+    float: left;
+}
+            
+.contents {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 2.5%;
+    right: 2.5%;
+    top: 350px;
+    margin: 0 auto 60px;
+    background-color: white;
+    box-shadow: 0 5px 10px  rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 10px 30px 10px 30px;
+    font-family: sans-serif;
+}
